@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <body>
+            <form>
+                <label for="scanFor">Scan for:</label><br>
+                <select id="scanFor" name="scanFor">
+                    <option value="activeDirectory">Active Directory</option>
+                    <!-- Add more options if needed -->
+                </select><br><br>
+        
+                <label for="domainName">Fully-qualified domain name:</label><br>
+                <input type="text" id="domainName" name="domainName" value="AD.lab.company.com"><br><br>
+        
+                <label for="ou">Organizational Unit:</label><br>
+                <input type="text" id="ou" name="ou" value="Lab/Engineering/Company"><br><br>
+        
+                <label for="domainController">Domain controller:</label><br>
+                <input type="text" id="domainController" name="domainController" value="myDomainController"><br><br>
+        
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" value="Administrator"><br><br>
+        
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" value="password"><br><br>
+        
+                <button type="button">Add to Scan ></button>
+                <button type="button">Exclude from Scan ></button>
+            </form>
+        </body>
+    </head>
+</html>
